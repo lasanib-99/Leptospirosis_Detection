@@ -8,11 +8,9 @@ The dataset used for this project is `train.csv`, which includes multiple featur
 
 ## Project Structure
 
-- `Leptospirosis_Detection_LR.ipynb`: Jupyter Notebook containing the complete workflow for data loading, preprocessing, model training, and evaluation using Logistic Regression model.
-- `Leptospirosis_Detection_RF.ipynb`: Jupyter Notebook containing the complete workflow for data loading, preprocessing, model training, and evaluation using Random Forest Classification model.
-- `train.csv`: Dataset used for training the models.
-- `test.csv`: Dataset used for testing the models.
-- 
+- `scripts/`: Folder containing Jupyter Notebooks named `Leptospirosis_Detection_LR.ipynb` and `Leptospirosis_Detection_RF.ipynb` containing the complete workflow for data loading, preprocessing, model training and evaluation using Logistic Regression model and Random Forest Classification model respectively.
+- `dataset/`: Folder containing training data (`train.csv`) and test data (`test.csv`) along with the dataset information in the `dataset_description.xlsx` file
+- `output_csv/`: Folder containing datasets which are products from the execution of jypyter notebooks, named `Preprocessed_test_LR.csv`, `Preprocessed_test_RF.csv` containing preprocessed test data according to the format of train dataset and also `Predictions_LR.csv` and `Predictions_RF.csv` containing predictions of test data according to each of the models.
 
 ## Installation
 
@@ -23,5 +21,3 @@ To run this project, you need to have Python installed along with the following 
 - scikit-learn
 - matplotlib
 - seaborn
-
-You can install the necessary packages using pip:
