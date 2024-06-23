@@ -36,9 +36,9 @@ Open the Jupyter Notebook leptospirosis-detection-lr.ipynb or leptospirosis-dete
 Train data is used to both train the data and also predict Leptospirosis while test data is used for prediction afterwards.
 
 1. The best model achieved an accuracy of 89.72% (on train data) using a Logistic Regression with the following parameters:
-C: 0.17
-max_iter: 900
-solver: newton-cg
+- C: 0.17
+- max_iter: 900
+- solver: newton-cg
 
 2. The best model achieved an accuracy of 98.14% (on train data) using a Random Forest Classifier with the following parameters:
 - max_depth: 23
